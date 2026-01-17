@@ -1,0 +1,26 @@
+// 行-水平和垂直居中
+.fr-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+//行-水平居中
+.fr-ac {
+	display: flex;
+	align-items: center;
+}
+
+.fr-ac-jb {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+//垂直-水平和垂直居中
+.fc-center {
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
