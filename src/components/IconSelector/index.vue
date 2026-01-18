@@ -51,7 +51,6 @@
 import { defineAsyncComponent, ref, reactive, onMounted, nextTick, computed, watch } from 'vue';
 import type { TabsPaneContext } from 'element-plus';
 import initIconfont from '/@/utils/getStyleSheets';
-import '/@/theme/iconSelector.scss';
 
 // 定义父组件传过来的值
 const props = defineProps({
